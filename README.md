@@ -284,17 +284,6 @@ Angle Regression
 * [rjags](http://cran.r-project.org/web/packages/rjags/index.html) - R interface to the JAGS MCMC library.
 * [rstan](http://mc-stan.org/rstan.html) - R interface to the Stan MCMC software.
 
-## Finance
-*Packages for dealing with money.*
-
-* [quantmod](http://www.quantmod.com/) - Quantitative Financial Modelling & Trading Framework for R.
-* [TTR](http://cran.r-project.org/web/packages/TTR/index.html) - Functions and data to construct technical trading rules with R.
-* [PerformanceAnalytics](http://cran.r-project.org/web/packages/PerformanceAnalytics/index.html) - Econometric tools for performance and risk analysis.
-* [zoo](http://cran.r-project.org/web/packages/zoo/index.html) - S3 Infrastructure for Regular and Irregular Time Series.
-* [xts](http://cran.r-project.org/web/packages/xts/index.html) - eXtensible Time Series.
-* [tseries](http://cran.r-project.org/web/packages/tseries/index.html) - Time series analysis and computational finance.
-* [fAssets](http://cran.r-project.org/web/packages/fAssets/index.html) - Analysing and Modelling Financial Assets.
-
 ## Bioinformatics
 *Packages for processing biological datasets.*
 
