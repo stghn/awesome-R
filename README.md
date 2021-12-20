@@ -303,9 +303,9 @@ Where to discover new R-esources.
 * [DataCamp](https://www.datacamp.com/) - Learn R data analytics online.
 * [Quick-R](http://www.statmethods.net/) - An excellent quick reference.
 * [Advanced R](http://adv-r.had.co.nz/) -  An in-progress book site for Advanced R.
-* [CRAN Task Views](http://cran.r-project.org/web/views/) - Task Views for CRAN packages.
 * [The R Programming Wikibook](https://en.wikibooks.org/wiki/R_Programming) - A collaborative handbook for R. 
 * [R-users](https://www.r-users.com/) - A job board for R users (and the people who are looking to hire them)
+* [Analytics for industRy](https://garthtarr.github.io/meatR/index.html) - A workshop introduces R as an efficient tool for data manipulation and visualisation.
 
 ## Books
 
@@ -313,6 +313,7 @@ Where to discover new R-esources.
 * [R in Action](http://www.manning.com/kabacoff2/) - This book aims at all levels of users, with sections for beginning, intermediate and advanced R ranging from "Exploring R data structures" to running regressions and conducting factor analyses.
 * [Use R!](http://www.springer.com/series/6991?detailsPage=titles) - This series of inexpensive and focused books from Springer publish shorter books aimed at practitioners. Books can discuss the use of R in a particular subject area, such as bayesian networks, ggplot2 and Rcpp.
 * [R for Data Science](https://r4ds.had.co.nz/) - This book will teach you how to do data science with R: You’ll learn how to get your data into R, get it into the most useful structure, transform it, visualise it and model it.
+* [YaRrr! The Pirate’s Guide to R](https://bookdown.org/ndphillips/YaRrr/) - The purpose of this book is to help you learn R from the ground-up.
 
 ## Reference Card
 
@@ -325,7 +326,7 @@ Where to discover new R-esources.
 
 # Other Awesome Lists
 
-* [awesome-awesomeness](https://github.com/bayandin/awesome-awesomeness)
+* [Coding Club](https://ourcodingclub.github.io/)
 * [lists](https://github.com/jnv/lists)
 
 # Contributing
