@@ -16,6 +16,7 @@ A curated list of awesome R frameworks, packages and software. Inspired by [awes
     - [Machine Learning](#machine-learning)
     - [Bayesian](#bayesian)
     - [Bioinformatics](#bioinformatics)
+    - [Genetic and Genomic Analysis](#genetic-and-genomic-analysis)
     - [R Development](#r-development)
     - [Other Interpreter](#other-interpreter)
     - [Learning R](#learning-r)
@@ -30,22 +31,20 @@ A curated list of awesome R frameworks, packages and software. Inspired by [awes
 *Integrated Development Environment* 
 
 * [RStudio](http://www.rstudio.org/) - A powerful and productive user interface for R. Works great on Windows, Mac, and Linux.
-* [JGR](http://rforge.net/JGR/) - JGR (speak 'Jaguar') is a Java Gui for R.
 * [Emacs + ESS](http://ess.r-project.org/) - Emacs Speaks Statistics is an add-on package for emacs text editors.
 * [StatET](http://www.walware.de/goto/statet) - An Eclipse based IDE (integrated development environment) for R.
 * [Revolution R Enterprise](http://www.revolutionanalytics.com/get-revolution-r-enterprise) - Revolution R would be offered free to academic users and commercial software would focus on big data, large scale multiprocessor functionality.
 * [R Commander](http://socserv.mcmaster.ca/jfox/Misc/Rcmdr/) - A package that provides a basic graphical user interface.
 * [IPython](http://ipython.org/ipython-doc/rel-0.13/config/extensions/rmagic.html#extensions-rmagic) - An interactive Python interpreter,and it supports execution of R code while capturing both output and figures.
-* [Deducer](http://www.deducer.org/pmwiki/pmwiki.php?n=Main.DeducerManual?from=Main.HomePage) -  A Menu driven data analysis GUI with a spreadsheet like data editor.
 * [Radiant](http://vnijs.github.io/radiant/) - A platform-independent browser-based interface for business analytics in R, based on the Shiny package.
-* [Vim-R](https://github.com/vim-scripts/Vim-R-plugin) - Vim pluign for R. 
+* [Visual Studio Code](https://code.visualstudio.com/) - One of the most popular IDEs available for coding multiple programs including R. 
 
 ## Syntax
 *Packages change the way you use R.*
 
 * [magrittr](https://github.com/smbache/magrittr) - Let's pipe it.
 * [pipeR](https://github.com/renkun-ken/pipeR) - Multi-paradigm Pipeline Implementation.
-* [lambda.r](https://github.com/zatonovo/lambda.r) - Functional programming and simple pattern matching in R.
+* [Forward Pipe Operator](https://stat.ethz.ch/R-manual/R-devel/library/base/html/pipeOp.html) - R 4.1.0 introduces a pipe operator |> into the base R syntax.
 
 ## Data Manipulation
 *Packages for cooking data.*
@@ -62,8 +61,10 @@ A curated list of awesome R frameworks, packages and software. Inspired by [awes
 * [lubridate](http://cran.r-project.org/web/packages/lubridate/index.html) - A set of functions to work with dates and times.
 * [stringi](http://www.rexamine.com/resources/stringi/) - ICU based string processing package.
 * [stringr](https://github.com/hadley/stringr) -  Consistent API for string processing.
-* [vroom] (https://www.tidyverse.org/blog/2019/05/vroom-1-0-0/) - The fastest delimited reader for your R data-manipulation.
-
+* [vroom](https://www.tidyverse.org/blog/2019/05/vroom-1-0-0/) - The fastest delimited reader for your R data-manipulation.
+* [purrr](https://purrr.tidyverse.org/) - It is part of tidyverse package and is a toolkit to apply functions for iteration.
+* [forcats](https://forcats.tidyverse.org/) - Provides a suite of tools that solve common problems with factors, including changing the order of levels or the values
+* [tidymodels](https://rviews.rstudio.com/2019/06/19/a-gentle-intro-to-tidymodels/)- This package includes a group of packages to make all the tasks around fitting the model much easier.
 
 ## Graphic Displays
 *Packages for showing data.*
@@ -81,11 +82,15 @@ A curated list of awesome R frameworks, packages and software. Inspired by [awes
 * [DiagrammeR](https://github.com/rich-iannone/DiagrammeR) - Create JS graph diagrams and flowcharts in R.
 * [plotly](https://github.com/ropensci/plotly) - Integration with [plot.ly](https://plot.ly).
 * [pairsD3](https://github.com/garthtarr/pairsD3) - Interactive pairs plots (scatterplot matrices).
+* [esquisse](https://cran.r-project.org/web/packages/esquisse/readme/README.html) - This is a Shiny gadget to create ggplot charts interactively with retrieving the ggplot code to reproduce the graph.
+* [ggstatsplot](https://indrajeetpatil.github.io/ggstatsplot/) - An extension of ggplot2 package for creating graphics with details from statistical tests
+* [ggpubr](https://rpkgs.datanovia.com/ggpubr/) -  provides some easy-to-use functions for creating and customizing ggplot2-based publication ready plots
 
 ## Reproducible Research
 *Packages for literate programming.*
 
 * [knitr](http://yihui.name/knitr/) - Easy dynamic report generation in R.
+* [kableExtra](https://cran.r-project.org/web/packages/kableExtra/vignettes/awesome_table_in_html.html)- help you build common complex tables and manipulate table styles.
 * [xtable](http://cran.r-project.org/web/packages/xtable/index.html) -  Export tables to LaTeX or HTML.
 * [rapport](http://rapport-package.info/#intro) - An R templating system.
 * [rmarkdown](http://rmarkdown.rstudio.com/) -  Dynamic documents for R.
@@ -156,7 +161,7 @@ A curated list of awesome R frameworks, packages and software. Inspired by [awes
 *Packages for making R cleverer.*
 
 * [AnomalyDetection](https://github.com/twitter/AnomalyDetection) - AnomalyDetection R package from Twitter.
-* [h2o](http://cran.r-project.org/web/packages/h2o/index.html) - Deeplearning, Random forests, GBM, KMeans, PCA, GLM
+* [h2o](http://cran.r-project.org/web/packages/h2o/index.html) - Deep learning, Random forests, GBM, KMeans, PCA, GLM
 * [Clever Algorithms For Machine Learning](https://github.com/jbrownlee/CleverAlgorithmsMachineLearning)
 * [Machine Learning For Hackers](https://github.com/johnmyleswhite/ML_for_Hackers)
 * [rpart](http://cran.r-project.org/web/packages/rpart/index.html) - Recursive Partitioning and Regression Trees
@@ -244,6 +249,7 @@ A curated list of awesome R frameworks, packages and software. Inspired by [awes
 * [Introduction to Statistical Learning](http://www-bcf.usc.edu/~gareth/ISL/)
 * [BreakoutDetection](https://github.com/twitter/BreakoutDetection) - Breakout Detection via Robust E-Statistics from Twitter.
 * [igraph](http://igraph.org/r/)  - A collection of network analysis tools.
+* [Keras](https://tensorflow.rstudio.com/guide/keras/)- A high-level neural networks API developed with a focus on enabling fast experimentation for deep learning.
 
 ## Bayesian
 *Packages for Bayesian Inference.*
@@ -264,6 +270,10 @@ A curated list of awesome R frameworks, packages and software. Inspired by [awes
 * [gap](http://cran.r-project.org/web/packages/gap/index.html) - An integrated package for genetic data analysis of both population and family data.
 * [ape](http://cran.r-project.org/web/packages/ape/index.html) - Analyses of Phylogenetics and Evolution.
 * [pheatmap](http://cran.r-project.org/web/packages/pheatmap/index.html) - Pretty heatmaps made easy.
+
+## Genetic and Genomic Analysis
+*Packages for processing genetic and genomic analysis.*
+
 
 ## R Development
 *Packages for packages.*
@@ -325,7 +335,9 @@ Where to discover new R-esources.
 * [Reference Card for ESS](http://ess.r-project.org/refcard.pdf) - Reference Card for ESS.
 * [R Markdown Cheat sheet](http://shiny.rstudio.com/images/rm-cheatsheet.pdf.zip) - Quick reference guide for writing reports with R Markdown.
 * [Shiny Cheat sheet](http://shiny.rstudio.com/images/cheatsheet.pdf.zip) - Quick reference guide for building Shiny apps.
-* [Reticulate Cheat sheet] (https://raw.githubusercontent.com/rstudio/cheatsheets/main/reticulate.pdf) - Use Python with R with reticulate package.
+* [Reticulate Cheat sheet](https://raw.githubusercontent.com/rstudio/cheatsheets/main/reticulate.pdf) - Use Python with R with reticulate package.
+* [purrr Cheat sheet](https://github.com/rstudio/cheatsheets/blob/main/purrr.pdf) - Provides a complete and consistent set of tools for working with functions and vectors. iteratively. 
+* [forcats Cheat sheet](https://raw.githubusercontent.com/rstudio/cheatsheets/main/factors.pdf) - Provides tools for working with factors.
 
 # Other Awesome Lists
 
