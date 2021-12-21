@@ -52,6 +52,7 @@ A curated list of awesome R frameworks, packages and software. Inspired by [awes
 
 * [dplyr](https://github.com/hadley/dplyr) -  Blazing fast data frames manipulation and database query.
 * [data.table](https://github.com/Rdatatable/data.table) - Fast data manipulation in a short and flexible syntax.
+* [dtplyr](https://dtplyr.tidyverse.org/) - easier data.table for dplyr users.
 * [reshape2](https://github.com/hadley/reshape) - Flexible rearrange, reshape and aggregate data.
 * [readr](https://github.com/hadley/readr) -  A fast and friendly way to read tabular data into R.
 * [tidyr](https://github.com/hadley/tidyr) - Easily tidy data with spread and gather functions.
@@ -133,6 +134,7 @@ A curated list of awesome R frameworks, packages and software. Inspired by [awes
 * [V8](https://github.com/jeroenooms/V8) - Embedded JavaScript Engine.
 * [htmlwidgets](http://www.htmlwidgets.org/) - Bring the best of JavaScript data visualization to R.
 * [rpy2](http://rpy.sourceforge.net/) - Python interface for R.
+* [reticulate](https://rstudio.github.io/reticulate/) - Provides a comprehensive set of tools for interoperability between Python and R
 
 ## Database Management
 *Packages for managing data.*
@@ -323,6 +325,7 @@ Where to discover new R-esources.
 * [Reference Card for ESS](http://ess.r-project.org/refcard.pdf) - Reference Card for ESS.
 * [R Markdown Cheat sheet](http://shiny.rstudio.com/images/rm-cheatsheet.pdf.zip) - Quick reference guide for writing reports with R Markdown.
 * [Shiny Cheat sheet](http://shiny.rstudio.com/images/cheatsheet.pdf.zip) - Quick reference guide for building Shiny apps.
+* [Reticulate Cheat sheet] (https://raw.githubusercontent.com/rstudio/cheatsheets/main/reticulate.pdf) - Use Python with R with reticulate package.
 
 # Other Awesome Lists
 
