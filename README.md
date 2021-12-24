@@ -15,7 +15,6 @@ A curated list of awesome R frameworks, packages and software. Inspired by [awes
     - [Database Management](#database-management)
     - [Machine Learning](#machine-learning)
     - [Bayesian](#bayesian)
-    - [Bioinformatics](#bioinformatics)
     - [Genetic and Genomic Analysis](#genetic-and-genomic-analysis)
     - [R Development](#r-development)
     - [Other Interpreter](#other-interpreter)
@@ -55,6 +54,7 @@ A curated list of awesome R frameworks, packages and software. Inspired by [awes
 * [reshape2](https://github.com/hadley/reshape) - Flexible rearrange, reshape and aggregate data.
 * [readr](https://github.com/hadley/readr) -  A fast and friendly way to read tabular data into R.
 * [tidyr](https://github.com/hadley/tidyr) - Easily tidy data with spread and gather functions.
+* [janitor](https://garthtarr.github.io/meatR/janitor.html) - A R package for examining and cleaning dirty data.
 * [broom](https://github.com/dgrtwo/broom) - Convert statistical analysis objects into tidy data frames.
 * [rlist](https://github.com/renkun-ken/rlist) - A toolbox for non-tabular data manipulation with lists.
 * [ff](http://ff.r-forge.r-project.org/) - Data structures designed to store large datasets.
@@ -63,7 +63,7 @@ A curated list of awesome R frameworks, packages and software. Inspired by [awes
 * [stringr](https://github.com/hadley/stringr) -  Consistent API for string processing.
 * [vroom](https://www.tidyverse.org/blog/2019/05/vroom-1-0-0/) - The fastest delimited reader for your R data-manipulation.
 * [purrr](https://purrr.tidyverse.org/) - It is part of tidyverse package and is a toolkit to apply functions for iteration.
-* [forcats](https://forcats.tidyverse.org/) - Provides a suite of tools that solve common problems with factors, including changing the order of levels or the values
+* [forcats](https://forcats.tidyverse.org/) - Provides a suite of tools that solve common problems with factors.
 * [tidymodels](https://rviews.rstudio.com/2019/06/19/a-gentle-intro-to-tidymodels/)- This package includes a group of packages to make all the tasks around fitting the model much easier.
 
 ## Graphic Displays
@@ -262,17 +262,9 @@ A curated list of awesome R frameworks, packages and software. Inspired by [awes
 * [rjags](http://cran.r-project.org/web/packages/rjags/index.html) - R interface to the JAGS MCMC library.
 * [rstan](http://mc-stan.org/rstan.html) - R interface to the Stan MCMC software.
 
-## Bioinformatics
-*Packages for processing biological datasets.*
-
-* [Bioconductor](http://www.bioconductor.org/) - Tools for the analysis and comprehension of high-throughput genomic data.
-* [genetics](http://cran.r-project.org/web/packages/genetics/index.html) - Classes and methods for handling genetic data.
-* [gap](http://cran.r-project.org/web/packages/gap/index.html) - An integrated package for genetic data analysis of both population and family data.
-* [ape](http://cran.r-project.org/web/packages/ape/index.html) - Analyses of Phylogenetics and Evolution.
-* [pheatmap](http://cran.r-project.org/web/packages/pheatmap/index.html) - Pretty heatmaps made easy.
-
 ## Genetic and Genomic Analysis
 *Packages for processing genetic and genomic analysis.*
+* [Bioconductor](http://www.bioconductor.org/) - Tools for the analysis and comprehension of high-throughput genomic data.
 
 
 ## R Development
@@ -337,7 +329,14 @@ Where to discover new R-esources.
 * [Shiny Cheat sheet](http://shiny.rstudio.com/images/cheatsheet.pdf.zip) - Quick reference guide for building Shiny apps.
 * [Reticulate Cheat sheet](https://raw.githubusercontent.com/rstudio/cheatsheets/main/reticulate.pdf) - Use Python with R with reticulate package.
 * [purrr Cheat sheet](https://github.com/rstudio/cheatsheets/blob/main/purrr.pdf) - Provides a complete and consistent set of tools for working with functions and vectors. iteratively. 
-* [forcats Cheat sheet](https://raw.githubusercontent.com/rstudio/cheatsheets/main/factors.pdf) - Provides tools for working with factors.
+* [forcats Cheat sheet](https://raw.githubusercontent.com/rstudio/cheatsheets/main/factors.pdf) - Quick reference guide for working with factors.
+* [R colours guide](https://www.nceas.ucsb.edu/sites/default/files/2020-04/colorPaletteCheatsheet.pdf)- Quick reference guide for using colors in R.
+* [ggplot2 Cheat sheet](https://www.rstudio.com/wp-content/uploads/2015/03/ggplot2-cheatsheet.pdf) - Quick reference guide for Data visualization. 
+* [dplyr Cheat sheet](https://raw.githubusercontent.com/rstudio/cheatsheets/main/data-transformation.pdf) - Quick reference guide for Data transformation. 
+* [tidyr Cheat sheet](https://raw.githubusercontent.com/rstudio/cheatsheets/main/tidyr.pdf) - Quick reference guide for tidying data.
+* [stringr Cheat sheet](https://raw.githubusercontent.com/rstudio/cheatsheets/main/strings.pdf) - Quick reference guide for string manipulation.
+* [lubridate Cheat sheet](https://raw.githubusercontent.com/rstudio/cheatsheets/main/lubridate.pdf) - Quick reference guide for working with Dates and times.
+* [RStudio Cheat sheets](https://www.rstudio.com/resources/cheatsheets/) - Provides a set of contributed cheatsheets for R users using favorite packages.
 
 # Other Awesome Lists
 
