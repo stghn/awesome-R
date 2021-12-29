@@ -291,9 +291,6 @@ A curated list of awesome R frameworks, packages and software. Inspired by [awes
 * [strataG](https://github.com/EricArcher/strataG) - A toolkit for haploid sequence and multilocus genetic data summaries, and analyses of population structure.
 * [hierfstat](https://github.com/jgx65/hierfstat) - Analysis of population structure using genetic markers. It is suitable for both haploid and diploid data.
 * [Biostrings](https://bioconductor.org/packages/release/bioc/html/Biostrings.html) - Memory efficient string containers, string matching algorithms, and other utilities, for fast manipulation of large biological sequences or sets of sequences.
-* 
-
-
 
 ## R Development
 *Packages for packages.*
