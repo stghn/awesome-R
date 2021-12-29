@@ -14,7 +14,8 @@ A curated list of awesome R frameworks, packages and software. Inspired by [awes
     - [Language API](#language-api)
     - [Database Management](#database-management)
     - [Machine Learning](#machine-learning)
-    - [Bayesian](#bayesian)
+    - [Statistical Modeling](#statistical-modeling)
+    - [Bayesian Analysis](#bayesian-analysis)
     - [Genetic and Genomic Analysis](#genetic-and-genomic-analysis)
     - [R Development](#r-development)
     - [Other Interpreter](#other-interpreter)
@@ -55,6 +56,7 @@ A curated list of awesome R frameworks, packages and software. Inspired by [awes
 * [readr](https://github.com/hadley/readr) -  A fast and friendly way to read tabular data into R.
 * [tidyr](https://github.com/hadley/tidyr) - Easily tidy data with spread and gather functions.
 * [janitor](https://garthtarr.github.io/meatR/janitor.html) - A R package for examining and cleaning dirty data.
+* [haven](https://haven.tidyverse.org/) - allows you to load foreign data formats (SAS, Spss and Stata) into R.
 * [broom](https://github.com/dgrtwo/broom) - Convert statistical analysis objects into tidy data frames.
 * [rlist](https://github.com/renkun-ken/rlist) - A toolbox for non-tabular data manipulation with lists.
 * [ff](http://ff.r-forge.r-project.org/) - Data structures designed to store large datasets.
@@ -64,7 +66,8 @@ A curated list of awesome R frameworks, packages and software. Inspired by [awes
 * [vroom](https://www.tidyverse.org/blog/2019/05/vroom-1-0-0/) - The fastest delimited reader for your R data-manipulation.
 * [purrr](https://purrr.tidyverse.org/) - It is part of tidyverse package and is a toolkit to apply functions for iteration.
 * [forcats](https://forcats.tidyverse.org/) - Provides a suite of tools that solve common problems with factors.
-* [tidymodels](https://rviews.rstudio.com/2019/06/19/a-gentle-intro-to-tidymodels/)- This package includes a group of packages to make all the tasks around fitting the model much easier.
+* [gdata](https://github.com/r-gregmisc/gdata) - Various R Programming Tools for Data Manipulation.
+* [here](https://here.r-lib.org/) - An amazing package that can help you better organise your R folders and make every dataset and script easier to find. 
 
 ## Graphic Displays
 *Packages for showing data.*
@@ -235,8 +238,6 @@ A curated list of awesome R frameworks, packages and software. Inspired by [awes
 * [rpart](http://cran.r-project.org/web/packages/rpart/index.html) - Recursive Partitioning and Regression Trees
 * [RPMM](http://cran.r-project.org/web/packages/RPMM/index.html) - Recursively Partitioned Mixture Model
 * [RSNNS](http://cran.r-project.org/web/packages/RSNNS/index.html) - Neural Networks in R using the Stuttgart Neural Network Simulator (SNNS)
-* [RWeka](http://cran.r-project.org/web/packages/RWeka/index.html) - R/Weka interface
-* [RXshrink](http://cran.r-project.org/web/packages/RXshrink/index.html) - RXshrink: Maximum Likelihood Shrinkage via Generalized Ridge or Least Angle Regression
 * [sda](http://cran.r-project.org/web/packages/sda/index.html) - Shrinkage Discriminant Analysis and CAT Score Variable Selection
 * [SDDA](http://cran.r-project.org/web/packages/SDDA/index.html) - Stepwise Diagonal Discriminant Analysis
 * [svmpath](http://cran.r-project.org/web/packages/svmpath/index.html) - svmpath: the SVM Path algorithm
@@ -244,14 +245,28 @@ A curated list of awesome R frameworks, packages and software. Inspired by [awes
 * [tree](http://cran.r-project.org/web/packages/tree/index.html) - Classification and regression trees
 * [varSelRF](http://cran.r-project.org/web/packages/varSelRF/index.html) - Variable selection using random forests
 * [xgboost](https://github.com/tqchen/xgboost/tree/master/R-package) - eXtreme Gradient Boosting Tree model, well known for its speed and performance.
-* [SuperLearner](https://github.com/ecpolley/SuperLearner)
+* [SuperLearner](https://github.com/ecpolley/SuperLearner) - Prediction model ensembling method
 * [subsemble](http://cran.r-project.org/web/packages/subsemble/index.html)- Multi-algorithm ensemble learning packages.
 * [Introduction to Statistical Learning](http://www-bcf.usc.edu/~gareth/ISL/)
-* [BreakoutDetection](https://github.com/twitter/BreakoutDetection) - Breakout Detection via Robust E-Statistics from Twitter.
 * [igraph](http://igraph.org/r/)  - A collection of network analysis tools.
 * [Keras](https://tensorflow.rstudio.com/guide/keras/)- A high-level neural networks API developed with a focus on enabling fast experimentation for deep learning.
 
-## Bayesian
+## Statistical modeling
+*Packages for statistics and statistical modeling.*
+* [tidymodels](https://rviews.rstudio.com/2019/06/19/a-gentle-intro-to-tidymodels/)- This package includes a group of packages to make all the tasks around fitting the model much easier.
+* [car](https://cran.r-project.org/web/packages/car/index.html) - ANOVA analysis, matrix and vector transformations, printing readable tables of coefficients from several regression models, creating residual plots, tests for the autocorrelation of error terms, and many other general interest statistical and graphing functions.
+* [MASS](https://cran.r-project.org/web/packages/MASS/index.html) - Includes many useful functions and data examples, including functions for estimating linear models through generalized least squares (GLS), fitting negative binomial linear models, the robust fitting of linear models, and Kruskal's non-metric multidimensional scaling.
+* [glmnet](https://cran.r-project.org/web/packages/glmnet/index.html) - Contains many extremely efficient procedures in order to fit the entire Lasso or ElasticNet regularization path for linear regression, logistic and multinomial regression models, Poisson regression, and the Cox model.
+* [lme4](https://cran.r-project.org/web/packages/lme4/index.html) - Fit linear and generalized linear mixed-effects models.
+* [nlme](https://cran.r-project.org/web/packages/nlme/index.html) - Fit and compare Gaussian linear and nonlinear mixed-effects models.
+* [multcomp](https://cran.r-project.org/web/packages/multcomp/index.html) - Simultaneous tests and confidence intervals for general linear hypotheses in parametric models, including linear, generalized linear, linear mixed effects, and survival models. 
+* [emmeans](https://cran.r-project.org/web/packages/emmeans/index.html) - Obtain estimated marginal means (EMMs) for many linear, generalized linear, and mixed models. Compute contrasts or linear functions of EMMs, trends, and comparisons of slopes.
+* [easystats](https://github.com/easystats/easystats) - a collection of R packages, which aims to provide a unifying and consistent framework to tame, discipline, and harness the scary R statistics and their pesky models.
+* [DescTools](https://cran.r-project.org/web/packages/DescTools/index.html) - A collection of miscellaneous basic statistic functions and convenience wrappers for efficiently describing data.
+* [lmtest](https://cran.r-project.org/web/packages/lmtest/index.html) - A collection of tests, data sets, and examples for diagnostic checking in linear regression models.
+
+
+## Bayesian Analysis
 *Packages for Bayesian Inference.*
 
 * [coda](http://cran.r-project.org/web/packages/coda/index.html) - Output analysis and diagnostics for MCMC.
@@ -264,7 +279,20 @@ A curated list of awesome R frameworks, packages and software. Inspired by [awes
 
 ## Genetic and Genomic Analysis
 *Packages for processing genetic and genomic analysis.*
-* [Bioconductor](http://www.bioconductor.org/) - Tools for the analysis and comprehension of high-throughput genomic data.
+* [snpReady](https://cran.r-project.org/web/packages/snpReady/vignettes/snpReady-vignette.html) - Preparing Genotypic Datasets in Order to Run Genomic Analysis
+* [optiSel](https://cran.r-project.org/web/packages/optiSel/index.html) - Optimum Contribution Selection and Population Genetics
+* [nadiv](https://cran.r-project.org/web/packages/nadiv/index.html) - Constructs (non)additive genetic relationship matrices, and their inverses, from a pedigree to be used in linear mixed effect models.
+* [BGLR](https://github.com/gdlc/BGLR-R) - An R Package for (Bayesian) High-Dimensional Regression for genomic prediction.
+* [SNPRelate](https://www.bioconductor.org/packages/devel/bioc/vignettes/SNPRelate/inst/doc/SNPRelate.html) - Parallel Computing Toolset for Relatedness and Principal Component Analysis of SNP Data
+* [ape](http://ape-package.ird.fr/) - Analysis of Phylogenetics and Evolution.
+* [adegenet](https://github.com/thibautjombart/adegenet) - R Package for the Multivariate Analysis of Genetic Markers.
+* [pegas](https://github.com/emmanuelparadis/pegas) - Population and Evolutionary Genetics Analysis System.
+* [mmod](https://github.com/dwinter/mmod) - an R package for calculating modern population divergence statistics.
+* [strataG](https://github.com/EricArcher/strataG) - A toolkit for haploid sequence and multilocus genetic data summaries, and analyses of population structure.
+* [hierfstat](https://github.com/jgx65/hierfstat) - Analysis of population structure using genetic markers. It is suitable for both haploid and diploid data.
+* [Biostrings](https://bioconductor.org/packages/release/bioc/html/Biostrings.html) - Memory efficient string containers, string matching algorithms, and other utilities, for fast manipulation of large biological sequences or sets of sequences.
+* 
+
 
 
 ## R Development
