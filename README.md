@@ -18,14 +18,11 @@ A curated list of awesome R frameworks, packages and software. Inspired by [awes
     - [Bayesian Analysis](#bayesian-analysis)
     - [Genetic and Genomic Analysis](#genetic-and-genomic-analysis)
     - [R Development](#r-development)
-    - [Other Interpreter](#other-interpreter)
-    - [Learning R](#learning-r)
 - [Resources](#resources)
     - [Websites](#websites)
     - [Books](#books)
     - [Reference Card](#reference-card)
 - [Other Awesome Lists](#other-awesome-lists)
-- [Contributing](#contributing)
 
 ## Integrated Development Environment
 *Integrated Development Environment* 
@@ -45,6 +42,7 @@ A curated list of awesome R frameworks, packages and software. Inspired by [awes
 * [magrittr](https://github.com/smbache/magrittr) - Let's pipe it.
 * [pipeR](https://github.com/renkun-ken/pipeR) - Multi-paradigm Pipeline Implementation.
 * [Forward Pipe Operator](https://stat.ethz.ch/R-manual/R-devel/library/base/html/pipeOp.html) - R 4.1.0 introduces a pipe operator |> into the base R syntax.
+* [pacman](http://trinker.github.io/pacman/vignettes/Introduction_to_pacman.html) - Package Management Tool
 
 ## Data Manipulation
 *Packages for cooking data.*
@@ -68,6 +66,8 @@ A curated list of awesome R frameworks, packages and software. Inspired by [awes
 * [forcats](https://forcats.tidyverse.org/) - Provides a suite of tools that solve common problems with factors.
 * [gdata](https://github.com/r-gregmisc/gdata) - Various R Programming Tools for Data Manipulation.
 * [here](https://here.r-lib.org/) - An amazing package that can help you better organise your R folders and make every dataset and script easier to find. 
+* [skimr](https://github.com/ropensci/skimr) - Displays summary statistics the user can skim quickly to understand their data.
+* [summarytools](https://cran.r-project.org/web/packages/summarytools/vignettes/introduction.html) - Providing tools to neatly and quickly summarize data
 
 ## Graphic Displays
 *Packages for showing data.*
@@ -264,7 +264,7 @@ A curated list of awesome R frameworks, packages and software. Inspired by [awes
 * [easystats](https://github.com/easystats/easystats) - a collection of R packages, which aims to provide a unifying and consistent framework to tame, discipline, and harness the scary R statistics and their pesky models.
 * [DescTools](https://cran.r-project.org/web/packages/DescTools/index.html) - A collection of miscellaneous basic statistic functions and convenience wrappers for efficiently describing data.
 * [lmtest](https://cran.r-project.org/web/packages/lmtest/index.html) - A collection of tests, data sets, and examples for diagnostic checking in linear regression models.
-
+* [metan](https://tiagoolivoto.github.io/metan/index.html) - provides useful functions for analyzing multi-environment trial data using parametric and non-parametric methods.
 
 ## Bayesian Analysis
 *Packages for Bayesian Inference.*
@@ -282,15 +282,24 @@ A curated list of awesome R frameworks, packages and software. Inspired by [awes
 * [snpReady](https://cran.r-project.org/web/packages/snpReady/vignettes/snpReady-vignette.html) - Preparing Genotypic Datasets in Order to Run Genomic Analysis
 * [optiSel](https://cran.r-project.org/web/packages/optiSel/index.html) - Optimum Contribution Selection and Population Genetics
 * [nadiv](https://cran.r-project.org/web/packages/nadiv/index.html) - Constructs (non)additive genetic relationship matrices, and their inverses, from a pedigree to be used in linear mixed effect models.
+* [synbreed](https://r-forge.r-project.org/R/?group_id=710) - A framework for the analysis of genomic prediction data (Genomic Selection, GWAS, QTL-mapping)
 * [BGLR](https://github.com/gdlc/BGLR-R) - An R Package for (Bayesian) High-Dimensional Regression for genomic prediction.
 * [SNPRelate](https://www.bioconductor.org/packages/devel/bioc/vignettes/SNPRelate/inst/doc/SNPRelate.html) - Parallel Computing Toolset for Relatedness and Principal Component Analysis of SNP Data
 * [ape](http://ape-package.ird.fr/) - Analysis of Phylogenetics and Evolution.
-* [adegenet](https://github.com/thibautjombart/adegenet) - R Package for the Multivariate Analysis of Genetic Markers.
+* [adegenet](https://github.com/thibautjombart/adegenet) - R Package for the Multivariate Analysis of Genetic markers
 * [pegas](https://github.com/emmanuelparadis/pegas) - Population and Evolutionary Genetics Analysis System.
 * [mmod](https://github.com/dwinter/mmod) - an R package for calculating modern population divergence statistics.
 * [strataG](https://github.com/EricArcher/strataG) - A toolkit for haploid sequence and multilocus genetic data summaries, and analyses of population structure.
 * [hierfstat](https://github.com/jgx65/hierfstat) - Analysis of population structure using genetic markers. It is suitable for both haploid and diploid data.
 * [Biostrings](https://bioconductor.org/packages/release/bioc/html/Biostrings.html) - Memory efficient string containers, string matching algorithms, and other utilities, for fast manipulation of large biological sequences or sets of sequences.
+* [vispedigree](https://www.r-bloggers.com/2018/11/drawing-an-animal-pedigree-using-the-vispedigree-package/) - Tidying and visualization for animal pedigree.
+* [kinship2](https://cran.r-project.org/web/packages/kinship2/) - Package to handle family data with a pedigree object.
+* [ggroups](https://cran.r-project.org/web/packages/ggroups/index.html) - Calculates additive and dominance genetic relationship matrices and their inverses, in matrix and tabular-sparse formats.
+* [pedigreeTools](https://github.com/Rpedigree/pedigreeTools) - This package offers a suit of functions for pedigree analyses such as sorting and editing pedigree data, computing inbreeding, and additive relationships.
+* [lme4GS](https://github.com/perpdgo/lme4GS) - The [lme4GS](https://www.frontiersin.org/articles/10.3389/fgene.2021.680569/full) package focuses on genomic prediction models and can fit LMMs using different variance–covariance matrices.
+* [rrBLUP](https://cran.r-project.org/web/packages/rrBLUP/) - Ridge regression and other kernels for genomic selection and genome wide association studies
+* [sommer](https://cran.r-project.org/web/packages/sommer/index.html) - Structural multivariate-univariate linear mixed model solver for estimation of multiple random effects with unknown variance-covariance structures, designed for genomic prediction and genome wide association studies.
+* [AlphaSimR](https://cran.r-project.org/web/packages/AlphaSimR/index.html) - An R package for breeding program simulations ([paper](https://academic.oup.com/g3journal/article/11/2/jkaa017/6025179))
 
 ## R Development
 *Packages for packages.*
@@ -304,22 +313,6 @@ A curated list of awesome R frameworks, packages and software. Inspired by [awes
 * [packrat](https://github.com/rstudio/packrat) - Make your R projects more isolated, portable, and reproducible.
 * [installr](https://github.com/talgalili/installr/) - Functions for installing softwares from within R (for Windows).
 * [Rocker](https://github.com/rocker-org) - R configurations for Docker.
-
-## Other Interpreter
-*Alternative R engines.*
-
-* [renjin](http://www.renjin.org/) - a JVM-based interpreter for R.
-* [pqR](http://www.pqr-project.org/) - a "pretty quick" implementation of R
-* [fastR](https://bitbucket.org/allr/fastr/wiki/Home) - FastR is an implementation of the R Language in Java atop Truffle and Graal. 
-* [riposte](https://github.com/jtalbot/riposte) - a fast interpreter and JIT for R.
-* [TERR](http://spotfire.tibco.com/discover-spotfire/what-does-spotfire-do/predictive-analytics/tibco-enterprise-runtime-for-r-terr) - TIBCO Enterprise Runtime for R.
-* [RRE](http://www.revolutionanalytics.com/) - Revolution R Enterprise.
-* [CXXR](https://www.cs.kent.ac.uk/projects/cxxr/) - Refactorising R into C++.
-
-## Learning R
-*Packages for Learning R.*
-
-- [swirl](http://swirlstats.com/) - An interactive R tutorial directly in your R console.
 
 # Resources
 
@@ -368,7 +361,4 @@ Where to discover new R-esources.
 * [Coding Club](https://ourcodingclub.github.io/)
 * [lists](https://github.com/jnv/lists)
 
-# Contributing
-Your contributions are always welcome!
 
-This work is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License - [CC BY-NC-SA 4.0](http://creativecommons.org/licenses/by-nc-sa/4.0/legalcode)
