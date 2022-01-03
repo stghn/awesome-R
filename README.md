@@ -360,6 +360,4 @@ Where to discover new R-esources.
 # Other Awesome Lists
 
 * [Coding Club](https://ourcodingclub.github.io/)
-* [lists](https://github.com/jnv/lists)
-
 
