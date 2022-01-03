@@ -328,6 +328,7 @@ Where to discover new R-esources.
 * [The R Programming Wikibook](https://en.wikibooks.org/wiki/R_Programming) - A collaborative handbook for R. 
 * [R-users](https://www.r-users.com/) - A job board for R users (and the people who are looking to hire them)
 * [Analytics for industRy](https://garthtarr.github.io/meatR/index.html) - A workshop introduces R as an efficient tool for data manipulation and visualisation.
+* [Statistical Programming in R](https://american-stat-412612.netlify.app/) - Learn the basics of programming using the open source statistical program R, an interactive programming language for data science. 
 
 ## Books
 
