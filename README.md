@@ -337,6 +337,8 @@ Where to discover new R-esources.
 * [Use R!](http://www.springer.com/series/6991?detailsPage=titles) - This series of inexpensive and focused books from Springer publish shorter books aimed at practitioners. Books can discuss the use of R in a particular subject area, such as bayesian networks, ggplot2 and Rcpp.
 * [R for Data Science](https://r4ds.had.co.nz/) - This book will teach you how to do data science with R: You’ll learn how to get your data into R, get it into the most useful structure, transform it, visualise it and model it.
 * [YaRrr! The Pirate’s Guide to R](https://bookdown.org/ndphillips/YaRrr/) - The purpose of this book is to help you learn R from the ground-up.
+* [R Markdown Cookbook](https://bookdown.org/yihui/rmarkdown-cookbook/) - This online book is designed to provide on how to extend the functionality of your R Markdown documents.
+* [R Markdown: The Definitive Guide](https://bookdown.org/yihui/rmarkdown/) - this online book is intended to be a guide instead of the comprehensive documentation of all topics related to R Markdown.
 
 ## Reference Card
 
