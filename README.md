@@ -339,6 +339,9 @@ Where to discover new R-esources.
 * [YaRrr! The Pirate’s Guide to R](https://bookdown.org/ndphillips/YaRrr/) - The purpose of this book is to help you learn R from the ground-up.
 * [R Markdown Cookbook](https://bookdown.org/yihui/rmarkdown-cookbook/) - This online book is designed to provide on how to extend the functionality of your R Markdown documents.
 * [R Markdown: The Definitive Guide](https://bookdown.org/yihui/rmarkdown/) - this online book is intended to be a guide instead of the comprehensive documentation of all topics related to R Markdown.
+* [Omic Association Studies with R and Bioconductor](https://isglobal-brge.github.io/book_omic_association/index.html#book-summary) - The aim of the book is to offer a practical guide to researchers, graduate students and those interested in the analysis of omic data.
+* [Computational Genomics with R](https://compgenomr.github.io/book/index.html) - The aim of this book is to provide the fundamentals for data analysis for genomics.
+
 
 ## Reference Card
 
