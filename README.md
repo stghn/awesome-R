@@ -330,6 +330,7 @@ Where to discover new R-esources.
 * [Analytics for industRy](https://garthtarr.github.io/meatR/index.html) - A workshop introduces R as an efficient tool for data manipulation and visualisation.
 * [Statistical Programming in R](https://american-stat-412612.netlify.app/) - Learn the basics of programming using the open source statistical program R, an interactive programming language for data science. 
 
+
 ## Books
 
 * [The Art of R Programming](http://shop.oreilly.com/product/9781593273842.do) -  It's a good resource for systematically learning fundamentals such as types of objects, control statements, variable scope, classes and debugging in R.
@@ -341,6 +342,7 @@ Where to discover new R-esources.
 * [R Markdown: The Definitive Guide](https://bookdown.org/yihui/rmarkdown/) - this online book is intended to be a guide instead of the comprehensive documentation of all topics related to R Markdown.
 * [Omic Association Studies with R and Bioconductor](https://isglobal-brge.github.io/book_omic_association/index.html#book-summary) - The aim of the book is to offer a practical guide to researchers, graduate students and those interested in the analysis of omic data.
 * [Computational Genomics with R](https://compgenomr.github.io/book/index.html) - The aim of this book is to provide the fundamentals for data analysis for genomics.
+* [List of featured online books in R](https://bookdown.org/) - Authoring Books and Technical Documents with R Markdown
 
 
 ## Reference Card
