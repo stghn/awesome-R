@@ -147,6 +147,7 @@ A curated list of awesome R frameworks, packages and software. Inspired by [awes
 ## Database Management
 *Packages for managing data.*
 
+* [dbplyr](https://dbplyr.tidyverse.org/) - The database backend for dplyr allowing you to work with remote database tables as if they are in-memory data frames.
 * [RODBC](http://cran.r-project.org/web/packages/RODBC/) - ODBC database access for R.
 * [DBI](https://github.com/rstats-db/DBI) - Defines a common interface between the R and database management systems.
 * [RMySQL](http://cran.r-project.org/web/packages/RMySQL/) - R interface to the MySQL database.
@@ -159,6 +160,7 @@ A curated list of awesome R frameworks, packages and software. Inspired by [awes
 * [RCassandra](http://cran.r-project.org/web/packages/RCassandra/index.html) - Direct interface (not Java) to the most basic functionality of Apache Cassanda.
 * [RHive](https://github.com/nexr/RHive) -  R extension facilitating distributed computing via Apache Hive.
 * [RNeo4j](https://github.com/nicolewhite/Rneo4j) - Neo4j graph database driver. 
+* [ibmdbR](https://www.ibm.com/docs/en/db2-warehouse?topic=science-r-development-environment) - Connecting an R development environment to a Db2 database
 
 ## Machine Learning
 *Packages for making R cleverer.*
