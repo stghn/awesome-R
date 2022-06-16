@@ -302,6 +302,7 @@ A curated list of awesome R frameworks, packages and software. Inspired by [awes
 * [rrBLUP](https://cran.r-project.org/web/packages/rrBLUP/) - Ridge regression and other kernels for genomic selection and genome wide association studies
 * [sommer](https://cran.r-project.org/web/packages/sommer/index.html) - Structural multivariate-univariate linear mixed model solver for estimation of multiple random effects with unknown variance-covariance structures, designed for genomic prediction and genome wide association studies.
 * [AlphaSimR](https://cran.r-project.org/web/packages/AlphaSimR/index.html) - An R package for breeding program simulations ([paper](https://academic.oup.com/g3journal/article/11/2/jkaa017/6025179))
+* [statgenGWAS](https://biometris.github.io/statgenGWAS/articles/GWAS.html) - Prforming single trait Genome Wide Association Studies (GWAS).
 
 ## R Development
 *Packages for packages.*
@@ -347,6 +348,8 @@ Where to discover new R-esources.
 * [Computational Genomics with R](https://compgenomr.github.io/book/index.html) - The aim of this book is to provide the fundamentals for data analysis for genomics.
 * [List of featured online books in R](https://bookdown.org/) - Authoring Books and Technical Documents with R Markdown
 * [Mixed Models with R](https://m-clark.github.io/mixed-models-with-R/) - The goal of this book is primarily to provide a sense of when one would use mixed models
+* [flextable R package](https://ardata-fr.github.io/flextable-book/index.html) - provides a framework for easily create tables for reporting and publications. 
+* [R for applied epidemiology and public health](https://epirhandbook.com/en/index.html)
 
 
 ## Reference Card
