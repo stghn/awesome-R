@@ -44,6 +44,16 @@ A curated list of awesome R frameworks, packages and software. Inspired by [awes
 * [Forward Pipe Operator](https://stat.ethz.ch/R-manual/R-devel/library/base/html/pipeOp.html) - R 4.1.0 introduces a pipe operator |> into the base R syntax.
 * [pacman](http://trinker.github.io/pacman/vignettes/Introduction_to_pacman.html) - Package Management Tool
 
+## Exploratory Data Analysis (EDA)
+*Packages for Automated Exploratory Data Analysis*
+
+* [DataExplorer](https://cran.r-project.org/web/packages/DataExplorer/vignettes/dataexplorer-intro.html) - helps to get an overview of the data set quickly with automated EDA in just a line of code.
+* [dlookr](https://choonghyunryu.github.io/dlookr/) - A collection of tools that support data diagnosis, exploration, transformation and automated data diagnostic reports.
+* [funModeling](https://cran.r-project.org/web/packages/funModeling/vignettes/funModeling_quickstart.html) - A set of functions related to exploratory data analysis, data preparation, and model performance.
+* [GGally](https://ggobi.github.io/ggally/index.html) - providing features to automatically visualize datasets and combine geometric objects.
+* [SmartEDA](https://cran.r-project.org/web/packages/SmartEDA/vignettes/SmartEDA.html#parallel-co-ordinate-plots) - concentrates on providing data comprehension using visuals and descriptive statistics.
+* [Deep Exploratory Data Analysis (EDA)](https://yuzar-blog.netlify.app/posts/2021-01-09-exploratory-data-analysis-and-beyond-in-r-in-progress/)
+
 ## Data Manipulation
 *Packages for cooking data.*
 
