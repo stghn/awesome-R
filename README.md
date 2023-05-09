@@ -360,6 +360,7 @@ Where to discover new R-esources.
 * [Mixed Models with R](https://m-clark.github.io/mixed-models-with-R/) - The goal of this book is primarily to provide a sense of when one would use mixed models
 * [flextable R package](https://ardata-fr.github.io/flextable-book/index.html) - provides a framework for easily create tables for reporting and publications. 
 * [R for applied epidemiology and public health](https://epirhandbook.com/en/index.html)
+* [Big Book of R](https://www.bigbookofr.com/index.html) - Bookmark collection for over 300 R-related programming book
 
 
 ## Reference Card
