@@ -49,10 +49,8 @@ A curated list of awesome R frameworks, packages and software. Inspired by [awes
 
 * [DataExplorer](https://cran.r-project.org/web/packages/DataExplorer/vignettes/dataexplorer-intro.html) - helps to get an overview of the data set quickly with automated EDA in just a line of code.
 * [dlookr](https://choonghyunryu.github.io/dlookr/) - A collection of tools that support data diagnosis, exploration, transformation and automated data diagnostic reports.
-* [funModeling](https://cran.r-project.org/web/packages/funModeling/vignettes/funModeling_quickstart.html) - A set of functions related to exploratory data analysis, data preparation, and model performance.
 * [GGally](https://ggobi.github.io/ggally/index.html) - providing features to automatically visualize datasets and combine geometric objects.
 * [SmartEDA](https://cran.r-project.org/web/packages/SmartEDA/vignettes/SmartEDA.html#parallel-co-ordinate-plots) - concentrates on providing data comprehension using visuals and descriptive statistics.
-* [Deep Exploratory Data Analysis (EDA)](https://yuzar-blog.netlify.app/posts/2021-01-09-exploratory-data-analysis-and-beyond-in-r-in-progress/)
 
 ## Data Manipulation
 *Packages for cooking data.*
@@ -369,8 +367,8 @@ Where to discover new R-esources.
 * [Data Mining Refcard](http://www.rdatamining.com/docs/R-refcard-data-mining.pdf) - R Reference Card for Data Mining.
 * [Regression Analysis Refcard](http://cran.r-project.org/doc/contrib/Ricci-refcard-regression.pdf) - R Reference Card for Regression Analysis.
 * [Reference Card for ESS](http://ess.r-project.org/refcard.pdf) - Reference Card for ESS.
-* [R Markdown Cheat sheet](http://shiny.rstudio.com/images/rm-cheatsheet.pdf.zip) - Quick reference guide for writing reports with R Markdown.
-* [Shiny Cheat sheet](http://shiny.rstudio.com/images/cheatsheet.pdf.zip) - Quick reference guide for building Shiny apps.
+* [R Markdown Cheat sheet](chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://www.rstudio.com/wp-content/uploads/2015/02/rmarkdown-cheatsheet.pdf) - Quick reference guide for writing reports with R Markdown.
+* [Shiny Cheat sheet](chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://rstudio.github.io/cheatsheets/shiny.pdf) - Quick reference guide for building Shiny apps.
 * [Reticulate Cheat sheet](https://raw.githubusercontent.com/rstudio/cheatsheets/main/reticulate.pdf) - Use Python with R with reticulate package.
 * [purrr Cheat sheet](https://github.com/rstudio/cheatsheets/blob/main/purrr.pdf) - Provides a complete and consistent set of tools for working with functions and vectors. iteratively. 
 * [forcats Cheat sheet](https://raw.githubusercontent.com/rstudio/cheatsheets/main/factors.pdf) - Quick reference guide for working with factors.
